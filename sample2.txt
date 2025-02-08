@@ -1,0 +1,1 @@
+Deep learning models like T5 and BERT are effective for text summarization. They condense long content into concise summaries.

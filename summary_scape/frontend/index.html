@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Scape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Welcome to Summary Scape</header>
+    <section>
+        <div class="intro">
+            <p>Summarize PDF and Word files in just a few clicks.</p>
+            <p>Follow the steps below to get started:</p>
+        </div>
+        <div class="steps">
+            <ol>
+                <li>Upload a PDF or Word file.</li>
+                <li>Click on "Summarize" to generate a concise summary.</li>
+                <li>View your summary below!</li>
+            </ol>
+        </div>
+        <div class="upload">
+            <input type="file" id="file-input" accept=".pdf, .docx">
+            <button onclick="summarizeFile()">Summarize</button>
+        </div>
+        <div id="result">
+            <h2>Summary:</h2>
+            <p id="summary-output">Your summary will appear here...</p>
+        </div>
+    </section>
+    <footer>© 2025 Summary Scape</footer>
+    <script src="script.js"></script>
+</body>
+</html>

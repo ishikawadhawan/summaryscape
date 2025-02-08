@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3E2C1C;
+    color: #D4AF37;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #5C4033;
+    color: #D4AF37;
+    font-size: 2rem;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+.intro {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+.steps {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #5C4033;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: left;
+}
+.steps ol {
+    padding-left: 20px;
+}
+.upload {
+    margin: 20px auto;
+}
+.upload input {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D4AF37;
+}
+.upload button {
+    padding: 10px 20px;
+    background-color: #D4AF37;
+    color: #3E2C1C;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.upload button:hover {
+    background-color: #C19A56;
+}
+#result {
+    margin-top: 30px;
+    background: #5C4033;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #5C4033;
+    color: #D4AF37;
+}
